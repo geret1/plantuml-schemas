@@ -32,14 +32,11 @@
   !if (%strpos($linddun_code, "I")>=0)
     !$linddun_string = $linddun_string + "<color:#green><back:#lightgreen> I </back></color>"
   !endif
-  !if (%strpos($linddun_code, "N")>=0)
+  !if (%strpos($linddun_code, "Nr")>=0)
     !$linddun_string = $linddun_string + "<color:#brown><back:#orange> N </back></color>"
   !endif
   !if (%strpos($linddun_code, "D")>=0)
     !$linddun_string = $linddun_string + "<color:#darkgoldenrod><back:#yellow> D </back></color>"
-  !endif
-  !if (%strpos($linddun_code, "D")>=0)
-    !$linddun_string = $linddun_string + "<color:#firebrick><back:#pink> D </back></color>"
   !endif
   !if (%strpos($linddun_code, "U")>=0)
     !$linddun_string = $linddun_string + "<color:#purple><back:#plum> U </back></color>"
